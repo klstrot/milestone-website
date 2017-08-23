@@ -1,0 +1,257 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'merriweather', serif;
+  background: #ffece4;
+}
+
+#about, #skills, #work, #contact {
+    height: 800px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float:left;
+    }
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background:  #efeeee url("../img/main-image.png") no-repeat;
+    background-size: cover;
+}
+
+header h2 {
+    padding: 20px 0;
+    color: #ff9999;
+    font-size: 30px;
+    font-family: 'merriweather', serif;
+}
+
+nav {
+    float: right;
+    padding: 0px 0px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    font-family: 'lato' , serif;
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 20px;
+    color: #d59300;
+    padding-left: 20px;
+}
+
+header h1 {
+    width: 1000px;
+    clear: both;
+    font-family: 'merriweather', serif;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 70px;
+    color: #ff9999;
+    padding: 20px 0;
+}
+
+
+header p {
+    font-size: 18px;
+    color: #0c254d;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+#logo{
+    position: absolute; right: 300px; bottom: 450px;
+    }
+
+
+
+/***** ABOUT *****/
+
+#about {
+    height: 781px;
+    background:  #efeeee url("../img/fpo.png") no-repeat;
+    background-size: cover;
+}
+
+#about h2 {
+    padding: 50px 0;
+    color: #ff9999;
+    font-size: 30px;
+    font-family: 'merriweather', serif;
+}
+
+
+#about h3 {
+    font-family: 'merriweather', serif;
+    font-size: 22px;
+}
+
+#about p {
+    font-size: 18px;
+    color: #0c254d;
+    line-height: 40px;
+    padding-right: 50px;
+}
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+
+
+/***** Skills *****/
+
+#line {
+    height: 33px;
+    background:  #f9ceb7 url("../img/art-bar1.png") no-repeat;
+    background-size: cover;
+}
+
+#skills h2 {
+    padding: 50px 0;
+    color: #ff9999;
+    font-size: 30px;
+    font-family: 'merriweather', serif;
+}
+
+#skills h3 {
+    font-family: 'merriweather', serif;
+    font-size: 18px;
+}
+
+#skills p {
+    font-size: 18px;
+    font-style: italic;
+    color: #0c254d;
+    line-height: 30px;
+    padding-right: 50px;
+    }
+
+#skills .full-width {
+    padding: 20px 0;
+}
+
+/***** WORK *****/
+
+#line2 {
+    height: 33px;
+    background:  #f9ceb7 url("../img/art-bar-2.png") no-repeat;
+    background-size: cover;
+}
+
+#work h2 {
+    padding: 50px 0;
+    color: #ff9999;
+    font-size: 30px;
+    font-family: 'merriweather', serif;
+}
+
+#work h3 {
+    font-family: 'merriweather', serif;
+    font-size: 26px;
+
+}
+
+#work p {
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 50px;
+    text-align: left;
+    color: #0c254d;
+}
+
+#work .full-width {
+    padding: 020px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h3 {
+    font-size: 24px;
+    width: 190px;
+    margin: 0 auto;
+    color: #ff9999;
+}
+
+#work h4 {
+    font-size: 20px;
+    width: 320px;
+    margin: 0 auto;
+    color: #ff9999;
+}
+
+#work{
+  background: #ffffff;
+}
+
+/***** CONTACT *****/
+#line3 {
+    height: 33px;
+    background:  #f9ceb7 url("../img/art-bar1.png") no-repeat;
+    background-size: cover;
+}
+
+#contact{
+  background: #ffece4;
+}
+
+#contact .full-width {
+    padding: 100px 0;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#envelope {
+    padding: 0 10px 0 115px;
+}
+#contact h2 {
+    font-family: 'merriweather', serif;
+    font-size: 36px;
+    color:#0c254d;
+}
+#email-header{
+    font-size: 32px;
+    font-weight: normal;
+    margin: -30px 0 5px 0;
+    color: #0c254d;
+}
+#socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    text-decoration: none;
+    color: #ff9999;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
